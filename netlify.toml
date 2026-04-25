@@ -1,0 +1,10 @@
+[build]
+  publish = "."
+
+[build.environment]
+  NETLIFY_SKIP_GIT_LFS = "true"
+
+[[redirects]]
+  from = "/"
+  to = "/index.html"
+  status = 200

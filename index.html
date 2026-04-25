@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Better Than Before Lawn Care & Landscaping</title>
+    <meta
+      http-equiv="refresh"
+      content="0; url=/Pages/desktop/home/"
+    />
+    <script>
+      (function () {
+        var w = window.innerWidth || document.documentElement.clientWidth || 1200;
+        var target = "/Pages/desktop/home/";
+
+        if (w <= 767) {
+          target = "/Pages/mobile/home/";
+        } else if (w <= 1024) {
+          target = "/Pages/tablet/home/";
+        }
+
+        window.location.replace(target);
+      })();
+    </script>
+  </head>
+  <body>
+    <p>
+      Redirecting to site home...
+      <a href="/Pages/desktop/home/">Continue</a>
+    </p>
+  </body>
+</html>
