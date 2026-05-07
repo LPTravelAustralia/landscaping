@@ -1430,8 +1430,8 @@ img[width][height] {
 }
 .brand-mark img { width: clamp(140px, 14vw, 170px); display: block; height: auto; }
 .site-nav { display: flex; justify-content: center; flex-wrap: wrap; gap: 24px; }
-.nav-link { text-decoration: none; font-size: 0.98rem; color: inherit; }
-.nav-link:hover { color: var(--brand-orange); }
+.nav-link { text-decoration: none; font-size: 0.98rem; color: rgba(36,36,36,1); }
+.nav-link:hover, .nav-link.is-active { color: var(--brand-orange); }
 .call-button {
   display: inline-flex;
   align-items: center;
