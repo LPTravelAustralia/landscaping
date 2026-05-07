@@ -1336,6 +1336,7 @@ img[width][height] {
 }
 .wrap { width: min(var(--content-width), calc(100vw - 32px)); margin: 0 auto; }
 .site-header {
+  font-family: Arial, Helvetica, sans-serif;
   position: sticky;
   top: 0;
   z-index: 200;
