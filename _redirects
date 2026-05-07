@@ -1,6 +1,9 @@
 /Pages/desktop/service-area/* /Pages/desktop/areas-we-serve/ 301
 /Pages/tablet/service-area/* /Pages/tablet/areas-we-serve/ 301
 /Pages/mobile/service-area/* /Pages/mobile/areas-we-serve/ 301
+/Pages/desktop/services/* /Pages/desktop/home/ 301
+/Pages/tablet/services/* /Pages/tablet/home/ 301
+/Pages/mobile/services/* /Pages/mobile/home/ 301
 
 /home/ / 301
 /about-us/ /Pages/desktop/about-us/ 301
