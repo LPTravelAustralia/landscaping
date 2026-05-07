@@ -1,0 +1,104 @@
+/* Gallery Fix - Ensure photo gallery displays images correctly */
+
+/* Force gallery container to have proper dimensions */
+.dmPhotoGallery.newPhotoGallery {
+    display: block;
+    width: 100%;
+}
+
+/* Ensure gallery row containers are visible */
+.dmPhotoGallery .layout-container,
+.dmPhotoGallery .photogallery-row {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+/* Gallery columns - ensure they display */
+.dmPhotoGallery .photogallery-column {
+    display: block;
+    flex: 1;
+    min-width: 0;
+}
+
+/* Gallery thumbnail items - ensure proper display */
+.dmPhotoGallery .photoGalleryThumbs {
+    display: block;
+    position: relative;
+    width: 100%;
+    background-color: transparent;
+}
+
+/* Image container - ensure background images display */
+.dmPhotoGallery .photoGalleryThumbs .image-container {
+    display: block;
+    position: relative;
+    width: 100%;
+    height: 100%;
+    min-height: 300px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+/* Links in image container */
+.dmPhotoGallery .photoGalleryThumbs .image-container a {
+    display: block;
+    width: 100%;
+    height: 100%;
+    min-height: 300px;
+    text-decoration: none;
+    position: relative;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: transparent;
+}
+
+/* Ensure images inside links are visible */
+.dmPhotoGallery .photoGalleryThumbs .image-container a img {
+    display: block;
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+/* Caption styling - ensure layers are correct */
+.dmPhotoGallery .caption-container {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.97);
+    z-index: 10;
+}
+
+.dmPhotoGallery .caption-inner {
+    padding: 15px;
+    display: block;
+}
+
+.dmPhotoGallery .caption-title {
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+}
+
+/* Ensure thumbnails inner wrapper displays */
+.dmPhotoGallery .thumbnailInnerWrapper {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+
+/* Ensure revealed images are visible */
+.dmPhotoGallery .image-container.revealed {
+    opacity: 1;
+}
+
+/* Fix for animated class if present */
+.dmPhotoGallery .photoGalleryThumbs.animated {
+    display: block;
+}
