@@ -1,0 +1,7 @@
+
+# Test tooling
+node_modules/
+chrome/
+package.json
+package-lock.json
+test*.js
