@@ -1,80 +1,275 @@
 <!doctype html>
-<html lang="en">
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Services | Better Than Before Landscaping</title>
-  <meta name="description" content="Browse our full landscaping and seasonal service lineup for Sparta and Rockford, MI.">
-  <link rel="canonical" href="https://www.betterthanbeforelawncareandlandscaping.com/services">
-  <meta property="og:type" content="website">
-  <meta property="og:url" content="https://www.betterthanbeforelawncareandlandscaping.com/services">
-  <meta property="og:title" content="Services | Better Than Before Landscaping">
-  <meta property="og:description" content="Browse our full landscaping and seasonal service lineup for Sparta and Rockford, MI.">
-  <meta property="og:image" content="https://www.betterthanbeforelawncareandlandscaping.com/Resources/images/shutterstock_1463795483-1920w.jpg">
-  <meta name="twitter:card" content="summary">
-  <meta name="twitter:title" content="Services | Better Than Before Landscaping">
-  <meta name="twitter:description" content="Browse our full landscaping and seasonal service lineup for Sparta and Rockford, MI.">
-  <meta name="twitter:image" content="https://www.betterthanbeforelawncareandlandscaping.com/Resources/images/shutterstock_1463795483-1920w.jpg">
-  <style>:root {
-  --soil: #3d2d22;
-  --grass: #5f7f2d;
-  --leaf: #7f9a3f;
-  --sun: #d8872f;
-  --mist: #f6f2e9;
-  --ink: #1f1c18;
+        <html lang="en">
+        <head>
+          <meta charset="utf-8">
+          <meta name="viewport" content="width=device-width, initial-scale=1">
+          <title>Landscaping Services | Better Than Before</title>
+          <meta name="description" content="Browse our full landscaping and seasonal service lineup for Sparta and Rockford, MI.">
+          <link rel="canonical" href="https://www.betterthanbeforelawncareandlandscaping.com/services/">
+          <meta property="og:type" content="website">
+          <meta property="og:url" content="https://www.betterthanbeforelawncareandlandscaping.com/services/">
+          <meta property="og:title" content="Landscaping Services | Better Than Before">
+          <meta property="og:description" content="Browse our full landscaping and seasonal service lineup for Sparta and Rockford, MI.">
+          <meta property="og:image" content="https://www.betterthanbeforelawncareandlandscaping.com/Resources/images/shutterstock_1789023152-2880w.jpg">
+          <meta name="twitter:card" content="summary_large_image">
+          <meta name="twitter:title" content="Landscaping Services | Better Than Before">
+          <meta name="twitter:description" content="Browse our full landscaping and seasonal service lineup for Sparta and Rockford, MI.">
+          <meta name="twitter:image" content="https://www.betterthanbeforelawncareandlandscaping.com/Resources/images/shutterstock_1789023152-2880w.jpg">
+          <style>:root {
+  --brand-green: rgba(40, 102, 18, 1);
+  --brand-orange: rgba(248, 111, 4, 1);
+  --brand-orange-dark: rgba(205, 75, 14, 1);
+  --brand-cream: rgba(244, 244, 244, 1);
+  --brand-ink: rgba(36, 36, 36, 1);
+  --brand-white: rgba(255, 255, 255, 0.97);
+  --brand-shadow: 0 22px 60px rgba(36, 36, 36, 0.12);
+  --content-width: 1180px;
 }
 * { box-sizing: border-box; }
+html { scroll-behavior: smooth; }
 body {
   margin: 0;
-  font-family: "Trebuchet MS", "Segoe UI", sans-serif;
-  color: var(--ink);
-  background: radial-gradient(circle at top right, #fff3de, #f8f5ef 45%, #f0ece3 100%);
+  font-family: Arial, Helvetica, sans-serif;
+  color: var(--brand-ink);
+  background:
+    radial-gradient(circle at top left, rgba(248, 111, 4, 0.12), transparent 28%),
+    linear-gradient(180deg, #fff 0%, #fbf8f2 52%, #f3efe7 100%);
+}
+a { color: inherit; }
+img { display: block; max-width: 100%; height: auto; }
+.page-shell { min-height: 100vh; }
+.wrap { width: min(var(--content-width), calc(100vw - 32px)); margin: 0 auto; }
+.site-header {
+  position: sticky;
+  top: 0;
+  z-index: 20;
+  background: rgba(255, 255, 255, 0.96);
+  backdrop-filter: blur(12px);
+  border-bottom: 1px solid rgba(36, 36, 36, 0.08);
+}
+.site-header .wrap {
+  display: grid;
+  grid-template-columns: auto 1fr auto;
+  align-items: center;
+  gap: 24px;
+  padding: 18px 0;
+}
+.brand-mark { display: inline-flex; align-items: center; }
+.brand-mark img { width: clamp(140px, 14vw, 170px); }
+.site-nav { display: flex; justify-content: center; flex-wrap: wrap; gap: 24px; }
+.nav-link {
+  text-decoration: none;
+  color: var(--brand-ink);
+  font-size: 0.98rem;
+  transition: color 160ms ease;
+}
+.nav-link:hover,
+.nav-link.is-active { color: var(--brand-orange); }
+.call-button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 196px;
+  padding: 14px 20px;
+  border-radius: 8px;
+  background: var(--brand-orange);
+  color: #23160a;
+  text-decoration: none;
+  font-weight: 700;
+  box-shadow: 0 10px 24px rgba(248, 111, 4, 0.24);
 }
 .hero {
-  padding: 64px 20px 42px;
-  background: linear-gradient(125deg, rgba(61,45,34,0.94), rgba(95,127,45,0.9));
-  color: #fff;
+  position: relative;
+  overflow: hidden;
+  background: linear-gradient(90deg, rgba(36, 36, 36, 0.74), rgba(40, 102, 18, 0.66)), url('/Resources/images/shutterstock_1789023152-2880w.jpg') center/cover no-repeat;
+  color: white;
 }
-.wrap {
-  width: min(1040px, 92vw);
-  margin: 0 auto;
+.hero::after {
+  content: "";
+  position: absolute;
+  inset: auto 0 0;
+  height: 120px;
+  background: linear-gradient(180deg, rgba(255,255,255,0), rgba(243,239,231,1));
+  pointer-events: none;
 }
-h1 { margin: 0 0 12px; font-size: clamp(1.9rem, 4vw, 2.8rem); letter-spacing: 0.01em; }
-.lead { margin: 0; max-width: 68ch; opacity: 0.95; line-height: 1.6; }
-.cards { display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 14px; padding: 26px 0 14px; }
-.card { background: #fff; border: 1px solid #e8dfd1; border-left: 4px solid var(--leaf); border-radius: 12px; padding: 14px 14px 16px; box-shadow: 0 6px 24px rgba(61, 45, 34, 0.08); }
-.card h2 { margin: 0 0 8px; font-size: 1.08rem; }
-.card p { margin: 0; line-height: 1.5; color: #4a443d; }
-.actions { display: flex; flex-wrap: wrap; gap: 10px; margin-top: 18px; }
-.btn { text-decoration: none; font-weight: 700; border-radius: 999px; padding: 10px 16px; display: inline-block; }
-.btn.primary { background: var(--sun); color: #20170f; }
-.btn.ghost { border: 1px solid #d9cfbf; color: #2f2b25; background: #fff; }
-.meta { font-size: .95rem; opacity: .88; margin-top: 10px; }
-section.content { padding: 22px 20px 54px; }</style>
-</head>
-<body>
-  <header class="hero">
-    <div class="wrap">
-      <h1>Landscaping & Outdoor Services</h1>
-      <p class="lead">From weekly turf care to hardscaping and winter response, this is the active services catalog for Better Than Before LawnCare & Landscaping.</p>
-      <div class="actions">
-        <a class="btn primary" href="../contact/">Request an Estimate</a>
-        <a class="btn ghost" href="../gallery/">See Project Gallery</a>
-      </div>
+.hero .wrap { position: relative; z-index: 1; padding: 88px 0 112px; }
+.eyebrow {
+  display: inline-block;
+  margin-bottom: 18px;
+  padding: 7px 12px;
+  border-radius: 999px;
+  background: rgba(255, 255, 255, 0.14);
+  border: 1px solid rgba(255, 255, 255, 0.24);
+  font-size: 0.84rem;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+.hero h1 {
+  margin: 0;
+  max-width: 14ch;
+  font-size: clamp(2.2rem, 5.8vw, 4.3rem);
+  line-height: 0.95;
+  text-transform: uppercase;
+}
+.hero p { max-width: 62ch; font-size: 1.06rem; line-height: 1.7; }
+.hero-actions { display: flex; flex-wrap: wrap; gap: 14px; margin-top: 28px; }
+.button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 48px;
+  padding: 0 20px;
+  border-radius: 10px;
+  text-decoration: none;
+  font-weight: 700;
+}
+.button.primary { background: var(--brand-orange); color: #20150b; }
+.button.secondary { background: rgba(255, 255, 255, 0.94); color: var(--brand-ink); }
+main { padding: 0 0 72px; }
+.content-grid {
+  display: grid;
+  grid-template-columns: minmax(0, 1.6fr) minmax(260px, 0.9fr);
+  gap: 26px;
+  margin-top: -44px;
+  position: relative;
+  z-index: 2;
+}
+.panel {
+  background: rgba(255, 255, 255, 0.96);
+  border: 1px solid rgba(36, 36, 36, 0.08);
+  border-radius: 22px;
+  box-shadow: var(--brand-shadow);
+  padding: 30px;
+}
+.panel h2,
+.panel h3 { margin-top: 0; }
+.intro-copy { font-size: 1.02rem; line-height: 1.75; color: rgba(36, 36, 36, 0.84); }
+.feature-list { display: grid; gap: 16px; margin-top: 24px; }
+.feature-item {
+  padding: 18px 18px 18px 22px;
+  border-left: 4px solid var(--brand-orange);
+  background: linear-gradient(90deg, rgba(248, 111, 4, 0.08), rgba(248, 111, 4, 0));
+  border-radius: 12px;
+  line-height: 1.65;
+}
+.service-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 18px;
+  margin-top: 8px;
+}
+.service-card {
+  border-radius: 18px;
+  background: white;
+  border: 1px solid rgba(36, 36, 36, 0.08);
+  padding: 22px;
+  box-shadow: 0 10px 30px rgba(36, 36, 36, 0.06);
+}
+.service-card h2 { margin: 0 0 12px; font-size: 1.18rem; }
+.service-card h2 a { text-decoration: none; color: var(--brand-green); }
+.service-card p { margin: 0 0 18px; line-height: 1.65; color: rgba(36, 36, 36, 0.84); }
+.service-link { color: var(--brand-orange-dark); font-weight: 700; text-decoration: none; }
+.sidebar-stack { display: grid; gap: 18px; }
+.service-list { display: grid; gap: 8px; }
+.service-list-link {
+  text-decoration: none;
+  padding: 12px 14px;
+  border-radius: 12px;
+  background: var(--brand-cream);
+  color: rgba(36, 36, 36, 0.86);
+}
+.service-list-link.is-current { background: rgba(40, 102, 18, 0.12); color: var(--brand-green); font-weight: 700; }
+.note-box {
+  border-radius: 18px;
+  background: linear-gradient(155deg, rgba(40, 102, 18, 0.96), rgba(205, 75, 14, 0.92));
+  color: white;
+  padding: 26px;
+}
+.note-box p { margin: 0 0 16px; line-height: 1.65; }
+.site-footer { padding: 0 0 46px; }
+.footer-bar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 18px;
+  border-top: 1px solid rgba(36, 36, 36, 0.08);
+  padding-top: 24px;
+  color: rgba(36, 36, 36, 0.72);
+  font-size: 0.95rem;
+}
+.footer-links { display: flex; flex-wrap: wrap; gap: 16px; }
+.footer-links a { text-decoration: none; }
+@media (max-width: 960px) {
+  .site-header .wrap { grid-template-columns: 1fr; justify-items: center; }
+  .content-grid { grid-template-columns: 1fr; }
+  .hero .wrap { padding: 68px 0 98px; }
+  .hero h1 { max-width: none; }
+}
+@media (max-width: 640px) {
+  .wrap { width: min(var(--content-width), calc(100vw - 20px)); }
+  .site-nav { gap: 14px; }
+  .panel { padding: 22px; border-radius: 18px; }
+  .footer-bar { flex-direction: column; align-items: flex-start; }
+}</style>
+        </head>
+        <body>
+          <div class="page-shell">
+          <header class="site-header">
+  <div class="wrap">
+    <a class="brand-mark" href="../home/" aria-label="Better Than Before home">
+      <img src="/Resources/images/imgi_2_573064202_17847239943596787_1118510838133176993_n-1920w.jpg" alt="Better Than Before Lawn Care & Landscaping logo" width="320" height="90">
+    </a>
+    <nav class="site-nav" aria-label="Primary">
+      <a class="nav-link" href="../home/">Home</a><a class="nav-link" href="../about-us/">About Us</a><a class="nav-link is-active" href="../services/">Our Services</a><a class="nav-link" href="../gallery/">Gallery</a><a class="nav-link" href="../contact/">Contact Us</a>
+    </nav>
+    <a class="call-button" href="tel:(616)821-6876">(616) 821-6876</a>
+  </div>
+</header>
+          <section class="hero">
+            <div class="wrap">
+              <span class="eyebrow">Outdoor Care Catalog</span>
+              <h1>Landscaping & Outdoor Services</h1>
+              <p>From weekly turf care to hardscaping and winter response, these pages now sit inside the same branded experience as the rest of the site instead of dropping visitors into a detached layout.</p>
+              <div class="hero-actions">
+                <a class="button primary" href="../contact/">Request an Estimate</a>
+                <a class="button secondary" href="../gallery/">See Project Gallery</a>
+              </div>
+            </div>
+          </section>
+          <main>
+            <div class="wrap content-grid">
+              <section class="panel">
+                <h2>Built Around Real Property Needs</h2>
+                <p class="intro-copy">Better Than Before LawnCare & Landscaping works across lawn maintenance, cleanup, design, drainage, hardscaping, plant care, and snow response. Use this hub to move into a specific service without losing the site header, navigation, or brand styling.</p>
+                <div class="service-grid"><article class="service-card"><h2><a href="./lawn-turf-care/">Lawn & Turf Care</a></h2><p>Weekly mowing, edging, fertilization, and seasonal turf health programs tailored to your yard.</p><a class="service-link" href="./lawn-turf-care/">Explore service</a></article><article class="service-card"><h2><a href="./seasonal-cleanup-specialty-services/">Seasonal Cleanup & Specialty Services</a></h2><p>Spring and fall cleanups, mulch refreshes, pruning, and one-time property reset services.</p><a class="service-link" href="./seasonal-cleanup-specialty-services/">Explore service</a></article><article class="service-card"><h2><a href="./full-landscape-design/">Full Landscape Design</a></h2><p>Concept-to-install plans with plant selection, grading strategy, and phased implementation options.</p><a class="service-link" href="./full-landscape-design/">Explore service</a></article><article class="service-card"><h2><a href="./patios-outdoor-living/">Patios & Outdoor Living</a></h2><p>Patio installation, outdoor gathering spaces, and practical upgrades that extend living outdoors.</p><a class="service-link" href="./patios-outdoor-living/">Explore service</a></article><article class="service-card"><h2><a href="./retaining-walls-hardscaping/">Retaining Walls & Hardscaping</a></h2><p>Retaining walls, paver paths, and hardscape elements engineered for durability and curb appeal.</p><a class="service-link" href="./retaining-walls-hardscaping/">Explore service</a></article><article class="service-card"><h2><a href="./drainage-grading/">Drainage & Grading</a></h2><p>Water management and grading solutions to protect foundations and eliminate standing water issues.</p><a class="service-link" href="./drainage-grading/">Explore service</a></article><article class="service-card"><h2><a href="./tree-shrub-care/">Tree & Shrub Care</a></h2><p>Plant health care, strategic trimming, and seasonal maintenance for long-term growth and structure.</p><a class="service-link" href="./tree-shrub-care/">Explore service</a></article><article class="service-card"><h2><a href="./residential-snow-removal/">Residential Snow Removal</a></h2><p>Dependable residential snow clearing and de-icing for safe winter access.</p><a class="service-link" href="./residential-snow-removal/">Explore service</a></article><article class="service-card"><h2><a href="./commercial-snow-contracts/">Commercial Snow Contracts</a></h2><p>Priority winter response, plowing, and ice management for commercial properties.</p><a class="service-link" href="./commercial-snow-contracts/">Explore service</a></article></div>
+              </section>
+              <aside class="sidebar-stack">
+                <section class="panel">
+                  <h3>Need Help Choosing?</h3>
+                  <p class="intro-copy">If the property needs more than one improvement, start with an estimate request and we can scope the work in the right order.</p>
+                  <div class="hero-actions">
+                    <a class="button primary" href="../contact/">Get a Quote</a>
+                    <a class="button secondary" href="../about-us/">About the Team</a>
+                  </div>
+                </section>
+                <section class="note-box">
+                  <h3>Seasonal Planning</h3>
+                  <p>Spring cleanup, summer turf work, drainage corrections, and winter contracts all have different lead times. Early planning usually gives the cleanest scheduling options.</p>
+                  <a class="button secondary" href="../resources/">Read Resources</a>
+                </section>
+              </aside>
+            </div>
+          </main>
+          <footer class="site-footer">
+  <div class="wrap footer-bar">
+    <div>Better Than Before LawnCare & Landscaping serving Sparta, Rockford, and nearby West Michigan communities.</div>
+    <div class="footer-links">
+      <a href="../areas-we-serve/">Areas We Serve</a>
+      <a href="../resources/">Resources</a>
+      <a href="../contact/">Request Service</a>
     </div>
-  </header>
-  <section class="content">
-    <div class="wrap">
-      <div class="cards"><article class="card"><h2><a href="./lawn-turf-care/">Lawn & Turf Care</a></h2><p>Weekly mowing, edging, fertilization, and seasonal turf health programs tailored to your yard.</p></article>
-<article class="card"><h2><a href="./seasonal-cleanup-specialty-services/">Seasonal Cleanup & Specialty Services</a></h2><p>Spring and fall cleanups, mulch refreshes, pruning, and one-time property reset services.</p></article>
-<article class="card"><h2><a href="./full-landscape-design/">Full Landscape Design</a></h2><p>Concept-to-install plans with plant selection, grading strategy, and phased implementation options.</p></article>
-<article class="card"><h2><a href="./patios-outdoor-living/">Patios & Outdoor Living</a></h2><p>Patio installation, outdoor gathering spaces, and practical upgrades that extend living outdoors.</p></article>
-<article class="card"><h2><a href="./retaining-walls-hardscaping/">Retaining Walls & Hardscaping</a></h2><p>Retaining walls, paver paths, and hardscape elements engineered for durability and curb appeal.</p></article>
-<article class="card"><h2><a href="./drainage-grading/">Drainage & Grading</a></h2><p>Water management and grading solutions to protect foundations and eliminate standing water issues.</p></article>
-<article class="card"><h2><a href="./tree-shrub-care/">Tree & Shrub Care</a></h2><p>Plant health care, strategic trimming, and seasonal maintenance for long-term growth and structure.</p></article>
-<article class="card"><h2><a href="./residential-snow-removal/">Residential Snow Removal</a></h2><p>Dependable residential snow clearing and de-icing for safe winter access.</p></article>
-<article class="card"><h2><a href="./commercial-snow-contracts/">Commercial Snow Contracts</a></h2><p>Priority winter response, plowing, and ice management for commercial properties.</p></article></div>
-    </div>
-  </section>
-</body>
-</html>
+  </div>
+</footer>
+        </div>
+        </body>
+        </html>

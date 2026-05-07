@@ -62,63 +62,63 @@ Warnings: 0
 
 ## Pages/desktop/services/commercial-snow-contracts/index.html
 
-- Canonical: https://www.betterthanbeforelawncareandlandscaping.com/services/commercial-snow-contracts
+- Canonical: https://www.betterthanbeforelawncareandlandscaping.com/services/commercial-snow-contracts/
 - Noindex: no
-- Title: Commercial Snow Contracts | Better Than Before Landscaping
+- Title: Commercial Snow Contracts | Better Than Before
 
 - PASS: No issues detected by local checks.
 
 ## Pages/desktop/services/drainage-grading/index.html
 
-- Canonical: https://www.betterthanbeforelawncareandlandscaping.com/services/drainage-grading
+- Canonical: https://www.betterthanbeforelawncareandlandscaping.com/services/drainage-grading/
 - Noindex: no
-- Title: Drainage & Grading | Better Than Before Landscaping
+- Title: Drainage & Grading | Better Than Before
 
 - PASS: No issues detected by local checks.
 
 ## Pages/desktop/services/full-landscape-design/index.html
 
-- Canonical: https://www.betterthanbeforelawncareandlandscaping.com/services/full-landscape-design
+- Canonical: https://www.betterthanbeforelawncareandlandscaping.com/services/full-landscape-design/
 - Noindex: no
-- Title: Full Landscape Design | Better Than Before Landscaping
+- Title: Full Landscape Design | Better Than Before
 
 - PASS: No issues detected by local checks.
 
 ## Pages/desktop/services/index.html
 
-- Canonical: https://www.betterthanbeforelawncareandlandscaping.com/services
+- Canonical: https://www.betterthanbeforelawncareandlandscaping.com/services/
 - Noindex: no
-- Title: Services | Better Than Before Landscaping
+- Title: Landscaping Services | Better Than Before
 
 - PASS: No issues detected by local checks.
 
 ## Pages/desktop/services/lawn-turf-care/index.html
 
-- Canonical: https://www.betterthanbeforelawncareandlandscaping.com/services/lawn-turf-care
+- Canonical: https://www.betterthanbeforelawncareandlandscaping.com/services/lawn-turf-care/
 - Noindex: no
-- Title: Lawn & Turf Care | Better Than Before Landscaping
+- Title: Lawn & Turf Care | Better Than Before
 
 - PASS: No issues detected by local checks.
 
 ## Pages/desktop/services/patios-outdoor-living/index.html
 
-- Canonical: https://www.betterthanbeforelawncareandlandscaping.com/services/patios-outdoor-living
+- Canonical: https://www.betterthanbeforelawncareandlandscaping.com/services/patios-outdoor-living/
 - Noindex: no
-- Title: Patios & Outdoor Living | Better Than Before Landscaping
+- Title: Patios & Outdoor Living | Better Than Before
 
 - PASS: No issues detected by local checks.
 
 ## Pages/desktop/services/residential-snow-removal/index.html
 
-- Canonical: https://www.betterthanbeforelawncareandlandscaping.com/services/residential-snow-removal
+- Canonical: https://www.betterthanbeforelawncareandlandscaping.com/services/residential-snow-removal/
 - Noindex: no
-- Title: Residential Snow Removal | Better Than Before Landscaping
+- Title: Residential Snow Removal | Better Than Before
 
 - PASS: No issues detected by local checks.
 
 ## Pages/desktop/services/retaining-walls-hardscaping/index.html
 
-- Canonical: https://www.betterthanbeforelawncareandlandscaping.com/services/retaining-walls-hardscaping
+- Canonical: https://www.betterthanbeforelawncareandlandscaping.com/services/retaining-walls-hardscaping/
 - Noindex: no
 - Title: Retaining Walls & Hardscaping | Better Than Before
 
@@ -126,17 +126,17 @@ Warnings: 0
 
 ## Pages/desktop/services/seasonal-cleanup-specialty-services/index.html
 
-- Canonical: https://www.betterthanbeforelawncareandlandscaping.com/services/seasonal-cleanup-specialty-services
+- Canonical: https://www.betterthanbeforelawncareandlandscaping.com/services/seasonal-cleanup-specialty-services/
 - Noindex: no
-- Title: Seasonal Cleanup Services | Better Than Before
+- Title: Seasonal Cleanup & Specialty Services | Better Than Before
 
 - PASS: No issues detected by local checks.
 
 ## Pages/desktop/services/tree-shrub-care/index.html
 
-- Canonical: https://www.betterthanbeforelawncareandlandscaping.com/services/tree-shrub-care
+- Canonical: https://www.betterthanbeforelawncareandlandscaping.com/services/tree-shrub-care/
 - Noindex: no
-- Title: Tree & Shrub Care | Better Than Before Landscaping
+- Title: Tree & Shrub Care | Better Than Before
 
 - PASS: No issues detected by local checks.
 
@@ -198,63 +198,63 @@ Warnings: 0
 
 ## Pages/mobile/services/commercial-snow-contracts/index.html
 
-- Canonical: https://www.betterthanbeforelawncareandlandscaping.com/services/commercial-snow-contracts
+- Canonical: https://www.betterthanbeforelawncareandlandscaping.com/services/commercial-snow-contracts/
 - Noindex: no
-- Title: Commercial Snow Contracts | Better Than Before Landscaping
+- Title: Commercial Snow Contracts | Better Than Before
 
 - PASS: No issues detected by local checks.
 
 ## Pages/mobile/services/drainage-grading/index.html
 
-- Canonical: https://www.betterthanbeforelawncareandlandscaping.com/services/drainage-grading
+- Canonical: https://www.betterthanbeforelawncareandlandscaping.com/services/drainage-grading/
 - Noindex: no
-- Title: Drainage & Grading | Better Than Before Landscaping
+- Title: Drainage & Grading | Better Than Before
 
 - PASS: No issues detected by local checks.
 
 ## Pages/mobile/services/full-landscape-design/index.html
 
-- Canonical: https://www.betterthanbeforelawncareandlandscaping.com/services/full-landscape-design
+- Canonical: https://www.betterthanbeforelawncareandlandscaping.com/services/full-landscape-design/
 - Noindex: no
-- Title: Full Landscape Design | Better Than Before Landscaping
+- Title: Full Landscape Design | Better Than Before
 
 - PASS: No issues detected by local checks.
 
 ## Pages/mobile/services/index.html
 
-- Canonical: https://www.betterthanbeforelawncareandlandscaping.com/services
+- Canonical: https://www.betterthanbeforelawncareandlandscaping.com/services/
 - Noindex: no
-- Title: Services | Better Than Before Landscaping
+- Title: Landscaping Services | Better Than Before
 
 - PASS: No issues detected by local checks.
 
 ## Pages/mobile/services/lawn-turf-care/index.html
 
-- Canonical: https://www.betterthanbeforelawncareandlandscaping.com/services/lawn-turf-care
+- Canonical: https://www.betterthanbeforelawncareandlandscaping.com/services/lawn-turf-care/
 - Noindex: no
-- Title: Lawn & Turf Care | Better Than Before Landscaping
+- Title: Lawn & Turf Care | Better Than Before
 
 - PASS: No issues detected by local checks.
 
 ## Pages/mobile/services/patios-outdoor-living/index.html
 
-- Canonical: https://www.betterthanbeforelawncareandlandscaping.com/services/patios-outdoor-living
+- Canonical: https://www.betterthanbeforelawncareandlandscaping.com/services/patios-outdoor-living/
 - Noindex: no
-- Title: Patios & Outdoor Living | Better Than Before Landscaping
+- Title: Patios & Outdoor Living | Better Than Before
 
 - PASS: No issues detected by local checks.
 
 ## Pages/mobile/services/residential-snow-removal/index.html
 
-- Canonical: https://www.betterthanbeforelawncareandlandscaping.com/services/residential-snow-removal
+- Canonical: https://www.betterthanbeforelawncareandlandscaping.com/services/residential-snow-removal/
 - Noindex: no
-- Title: Residential Snow Removal | Better Than Before Landscaping
+- Title: Residential Snow Removal | Better Than Before
 
 - PASS: No issues detected by local checks.
 
 ## Pages/mobile/services/retaining-walls-hardscaping/index.html
 
-- Canonical: https://www.betterthanbeforelawncareandlandscaping.com/services/retaining-walls-hardscaping
+- Canonical: https://www.betterthanbeforelawncareandlandscaping.com/services/retaining-walls-hardscaping/
 - Noindex: no
 - Title: Retaining Walls & Hardscaping | Better Than Before
 
@@ -262,17 +262,17 @@ Warnings: 0
 
 ## Pages/mobile/services/seasonal-cleanup-specialty-services/index.html
 
-- Canonical: https://www.betterthanbeforelawncareandlandscaping.com/services/seasonal-cleanup-specialty-services
+- Canonical: https://www.betterthanbeforelawncareandlandscaping.com/services/seasonal-cleanup-specialty-services/
 - Noindex: no
-- Title: Seasonal Cleanup Services | Better Than Before
+- Title: Seasonal Cleanup & Specialty Services | Better Than Before
 
 - PASS: No issues detected by local checks.
 
 ## Pages/mobile/services/tree-shrub-care/index.html
 
-- Canonical: https://www.betterthanbeforelawncareandlandscaping.com/services/tree-shrub-care
+- Canonical: https://www.betterthanbeforelawncareandlandscaping.com/services/tree-shrub-care/
 - Noindex: no
-- Title: Tree & Shrub Care | Better Than Before Landscaping
+- Title: Tree & Shrub Care | Better Than Before
 
 - PASS: No issues detected by local checks.
 
@@ -334,63 +334,63 @@ Warnings: 0
 
 ## Pages/tablet/services/commercial-snow-contracts/index.html
 
-- Canonical: https://www.betterthanbeforelawncareandlandscaping.com/services/commercial-snow-contracts
+- Canonical: https://www.betterthanbeforelawncareandlandscaping.com/services/commercial-snow-contracts/
 - Noindex: no
-- Title: Commercial Snow Contracts | Better Than Before Landscaping
+- Title: Commercial Snow Contracts | Better Than Before
 
 - PASS: No issues detected by local checks.
 
 ## Pages/tablet/services/drainage-grading/index.html
 
-- Canonical: https://www.betterthanbeforelawncareandlandscaping.com/services/drainage-grading
+- Canonical: https://www.betterthanbeforelawncareandlandscaping.com/services/drainage-grading/
 - Noindex: no
-- Title: Drainage & Grading | Better Than Before Landscaping
+- Title: Drainage & Grading | Better Than Before
 
 - PASS: No issues detected by local checks.
 
 ## Pages/tablet/services/full-landscape-design/index.html
 
-- Canonical: https://www.betterthanbeforelawncareandlandscaping.com/services/full-landscape-design
+- Canonical: https://www.betterthanbeforelawncareandlandscaping.com/services/full-landscape-design/
 - Noindex: no
-- Title: Full Landscape Design | Better Than Before Landscaping
+- Title: Full Landscape Design | Better Than Before
 
 - PASS: No issues detected by local checks.
 
 ## Pages/tablet/services/index.html
 
-- Canonical: https://www.betterthanbeforelawncareandlandscaping.com/services
+- Canonical: https://www.betterthanbeforelawncareandlandscaping.com/services/
 - Noindex: no
-- Title: Services | Better Than Before Landscaping
+- Title: Landscaping Services | Better Than Before
 
 - PASS: No issues detected by local checks.
 
 ## Pages/tablet/services/lawn-turf-care/index.html
 
-- Canonical: https://www.betterthanbeforelawncareandlandscaping.com/services/lawn-turf-care
+- Canonical: https://www.betterthanbeforelawncareandlandscaping.com/services/lawn-turf-care/
 - Noindex: no
-- Title: Lawn & Turf Care | Better Than Before Landscaping
+- Title: Lawn & Turf Care | Better Than Before
 
 - PASS: No issues detected by local checks.
 
 ## Pages/tablet/services/patios-outdoor-living/index.html
 
-- Canonical: https://www.betterthanbeforelawncareandlandscaping.com/services/patios-outdoor-living
+- Canonical: https://www.betterthanbeforelawncareandlandscaping.com/services/patios-outdoor-living/
 - Noindex: no
-- Title: Patios & Outdoor Living | Better Than Before Landscaping
+- Title: Patios & Outdoor Living | Better Than Before
 
 - PASS: No issues detected by local checks.
 
 ## Pages/tablet/services/residential-snow-removal/index.html
 
-- Canonical: https://www.betterthanbeforelawncareandlandscaping.com/services/residential-snow-removal
+- Canonical: https://www.betterthanbeforelawncareandlandscaping.com/services/residential-snow-removal/
 - Noindex: no
-- Title: Residential Snow Removal | Better Than Before Landscaping
+- Title: Residential Snow Removal | Better Than Before
 
 - PASS: No issues detected by local checks.
 
 ## Pages/tablet/services/retaining-walls-hardscaping/index.html
 
-- Canonical: https://www.betterthanbeforelawncareandlandscaping.com/services/retaining-walls-hardscaping
+- Canonical: https://www.betterthanbeforelawncareandlandscaping.com/services/retaining-walls-hardscaping/
 - Noindex: no
 - Title: Retaining Walls & Hardscaping | Better Than Before
 
@@ -398,17 +398,17 @@ Warnings: 0
 
 ## Pages/tablet/services/seasonal-cleanup-specialty-services/index.html
 
-- Canonical: https://www.betterthanbeforelawncareandlandscaping.com/services/seasonal-cleanup-specialty-services
+- Canonical: https://www.betterthanbeforelawncareandlandscaping.com/services/seasonal-cleanup-specialty-services/
 - Noindex: no
-- Title: Seasonal Cleanup Services | Better Than Before
+- Title: Seasonal Cleanup & Specialty Services | Better Than Before
 
 - PASS: No issues detected by local checks.
 
 ## Pages/tablet/services/tree-shrub-care/index.html
 
-- Canonical: https://www.betterthanbeforelawncareandlandscaping.com/services/tree-shrub-care
+- Canonical: https://www.betterthanbeforelawncareandlandscaping.com/services/tree-shrub-care/
 - Noindex: no
-- Title: Tree & Shrub Care | Better Than Before Landscaping
+- Title: Tree & Shrub Care | Better Than Before
 
 - PASS: No issues detected by local checks.
 
