@@ -1,3 +1,5 @@
+/Pages/mobile/* /Pages/desktop/:splat 301
+/Pages/tablet/* /Pages/desktop/:splat 301
 /Pages/desktop/service-area/* /Pages/desktop/areas-we-serve/ 301
 /Pages/tablet/service-area/* /Pages/tablet/areas-we-serve/ 301
 /Pages/mobile/service-area/* /Pages/mobile/areas-we-serve/ 301

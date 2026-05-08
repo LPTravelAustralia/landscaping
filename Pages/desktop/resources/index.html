@@ -15,171 +15,38 @@
   <meta name="twitter:title" content="Resources | Better Than Before">
   <meta name="twitter:description" content="Landscaping guides, seasonal checklists, and planning resources from Better Than Before LawnCare & Landscaping.">
   <meta name="twitter:image" content="https://www.betterthanbeforelawncareandlandscaping.com/Resources/images/shutterstock_1463795483-1920w.jpg">
+  <link rel="stylesheet" href="/Style/shared.css">
   <style>
-:root {
-  --brand-green: rgba(40, 102, 18, 1);
-  --brand-orange: rgba(248, 111, 4, 1);
-  --brand-orange-dark: rgba(205, 75, 14, 1);
-  --brand-cream: rgba(244, 244, 244, 1);
-  --brand-ink: rgba(36, 36, 36, 1);
-  --brand-white: rgba(255, 255, 255, 0.97);
-  --brand-shadow: 0 22px 60px rgba(36, 36, 36, 0.12);
-  --content-width: 1180px;
-}
-* { box-sizing: border-box; }
-body {
-  margin: 0;
-  font-family: Arial, Helvetica, sans-serif;
-  color: var(--brand-ink);
-  background:
-    radial-gradient(circle at top left, rgba(248, 111, 4, 0.12), transparent 28%),
-    linear-gradient(180deg, #fff 0%, #fbf8f2 52%, #f3efe7 100%);
-}
-a { color: inherit; }
-img { display: block; max-width: 100%; height: auto; }
-.wrap { width: min(var(--content-width), calc(100vw - 32px)); margin: 0 auto; }
-.site-header {
-  position: sticky;
-  top: 0;
-  z-index: 20;
-  background: rgba(255, 255, 255, 0.96);
-  backdrop-filter: blur(12px);
-  border-bottom: 1px solid rgba(36, 36, 36, 0.08);
-}
-.site-header .wrap {
-  display: grid;
-  grid-template-columns: auto 1fr auto;
-  align-items: center;
-  gap: 24px;
-  padding: 18px 0;
-}
-.brand-mark img { width: clamp(140px, 14vw, 170px); }
-.site-nav { display: flex; justify-content: center; flex-wrap: wrap; gap: 24px; }
-.nav-link { text-decoration: none; font-size: 0.98rem; }
-.nav-link:hover, .nav-link.is-active { color: var(--brand-orange); }
-.call-button {
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  min-width: 196px;
-  padding: 14px 20px;
-  border-radius: 8px;
-  background: var(--brand-orange);
-  color: #23160a;
-  text-decoration: none;
-  font-weight: 700;
-  box-shadow: 0 10px 24px rgba(248, 111, 4, 0.24);
-}
-.hero {
-  position: relative;
-  overflow: hidden;
-  background: linear-gradient(90deg, rgba(61,45,34,0.78), rgba(97,126,52,0.78)), url('/Resources/images/shutterstock_1463795483-1920w.jpg') center/cover no-repeat;
-  color: white;
-}
-.hero::after {
-  content: "";
-  position: absolute;
-  inset: auto 0 0;
-  height: 120px;
-  background: linear-gradient(180deg, rgba(255,255,255,0), rgba(243,239,231,1));
-}
-.hero .wrap { position: relative; z-index: 1; padding: 88px 0 112px; }
-.eyebrow {
-  display: inline-block;
-  margin-bottom: 18px;
-  padding: 7px 12px;
-  border-radius: 999px;
-  background: rgba(255, 255, 255, 0.14);
-  border: 1px solid rgba(255, 255, 255, 0.24);
-  font-size: 0.84rem;
-  letter-spacing: 0.08em;
-  text-transform: uppercase;
-}
-.hero h1 {
-  margin: 0;
-  max-width: 18ch;
-  font-size: clamp(2.2rem, 5.2vw, 4rem);
-  line-height: 1.02;
-}
-.hero p { max-width: 62ch; font-size: 1.06rem; line-height: 1.7; }
-.hero-actions { display: flex; flex-wrap: wrap; gap: 14px; margin-top: 28px; }
-.button {
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  min-height: 48px;
-  padding: 0 20px;
-  border-radius: 10px;
-  text-decoration: none;
-  font-weight: 700;
-}
-.button.primary { background: var(--brand-orange); color: #20150b; }
-.button.secondary { background: rgba(255, 255, 255, 0.94); color: var(--brand-ink); }
-main { padding: 0 0 72px; }
-.content-grid {
-  display: grid;
-  grid-template-columns: minmax(0, 1.6fr) minmax(260px, 0.9fr);
-  gap: 26px;
-  margin-top: -44px;
-  position: relative;
-  z-index: 2;
-}
-.panel {
-  background: rgba(255, 255, 255, 0.96);
-  border: 1px solid rgba(36, 36, 36, 0.08);
-  border-radius: 22px;
-  box-shadow: var(--brand-shadow);
-  padding: 30px;
-}
-.panel h2, .panel h3 { margin-top: 0; }
-.intro-copy { font-size: 1.02rem; line-height: 1.75; color: rgba(36, 36, 36, 0.84); }
-.resource-grid {
-  display: grid;
-  grid-template-columns: repeat(2, minmax(0, 1fr));
-  gap: 18px;
-}
-.resource-card {
-  border-radius: 18px;
-  background: white;
-  border: 1px solid rgba(36, 36, 36, 0.08);
-  padding: 22px;
-  box-shadow: 0 10px 30px rgba(36, 36, 36, 0.06);
-}
-.resource-card h3 { margin: 0 0 10px; color: var(--brand-green); }
-.resource-card p { margin: 0; line-height: 1.65; color: rgba(36, 36, 36, 0.84); }
-.sidebar-stack { display: grid; gap: 18px; }
-.note-box {
-  border-radius: 18px;
-  background: linear-gradient(155deg, rgba(40, 102, 18, 0.96), rgba(205, 75, 14, 0.92));
-  color: white;
-  padding: 26px;
-}
-.note-box p { margin: 0 0 16px; line-height: 1.65; }
-.site-footer { padding: 0 0 46px; }
-.footer-bar {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  gap: 18px;
-  border-top: 1px solid rgba(36, 36, 36, 0.08);
-  padding-top: 24px;
-  color: rgba(36, 36, 36, 0.72);
-  font-size: 0.95rem;
-}
-.footer-links { display: flex; flex-wrap: wrap; gap: 16px; }
-.footer-links a { text-decoration: none; }
-@media (max-width: 960px) {
-  .site-header .wrap { grid-template-columns: 1fr; justify-items: center; }
-  .content-grid { grid-template-columns: 1fr; }
-  .hero .wrap { padding: 68px 0 98px; }
-  .resource-grid { grid-template-columns: 1fr; }
-}
-@media (max-width: 640px) {
-  .wrap { width: min(var(--content-width), calc(100vw - 20px)); }
-  .site-nav { gap: 14px; }
-  .panel { padding: 22px; border-radius: 18px; }
-  .footer-bar { flex-direction: column; align-items: flex-start; }
-}
+    /* ── Resources page-specific ── */
+    .hero { background-image: url('/Resources/images/shutterstock_1463795483-1920w.jpg'); }
+    main { padding: 0 0 72px; }
+    .content-grid {
+      display: grid;
+      grid-template-columns: minmax(0, 1.6fr) minmax(260px, 0.9fr);
+      gap: 26px;
+      margin-top: -44px;
+      position: relative;
+      z-index: 2;
+    }
+    .resource-grid {
+      display: grid;
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      gap: 18px;
+    }
+    .resource-card {
+      border-radius: 18px;
+      background: white;
+      border: 1px solid rgba(36,36,36,.08);
+      padding: 22px;
+      box-shadow: 0 10px 30px rgba(36,36,36,.06);
+    }
+    .resource-card h3 { margin: 0 0 10px; color: var(--brand-green); }
+    .resource-card p  { margin: 0; line-height: 1.65; color: rgba(36,36,36,.84); }
+    .sidebar-stack { display: grid; gap: 18px; }
+    @media (max-width: 960px) {
+      .content-grid { grid-template-columns: 1fr; }
+      .resource-grid { grid-template-columns: 1fr; }
+    }
   </style>
 </head>
 <body>
